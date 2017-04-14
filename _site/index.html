@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Turkey TSA</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+  <link rel="stylesheet" href="/jekyll-multilingual/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/jekyll-multilingual/">
+  
+  
+  <link rel="alternate" hreflang="en" href="/" />
+  <link rel="alternate" hreflang="fr" href="/accueil.html" />
+  <link rel="alternate" type="application/rss+xml" title="Turkey TSA" href="http://localhost:4000/jekyll-multilingual/feed.xml">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+ 
+<style>
+
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+
+}
+ 
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+ 
+  
+    
+}
+tr {list-style-type: none;position: relative;}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    
+    display: block;
+    transition: 0.3s;
+ 
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {font-size:1.5em;}
+#con{display:none}
+#about{display:none}
+@media screen and (max-width: 700px) {
+th{display:block}
+ td{ display: none;
+	position: absolute;}
+  .overlay {overflow-y: auto;}
+ // .overlay a {font-size: 15px}
+  .overlay .closebtn {
+    font-size: 3em;
+    top: 15px;
+    right: 35px;
+
+  }
+#con{display:inline}
+#about{display:inline}
+#contact{display:none;
+    color: #818181; text-align: center;line-height:30px}
+
+
+}
+
+ }   
+
+</style>
+</head>
+
+
+  <body>
+
+    <header class="site-header" style="-webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;">
+
+
+  <div class="wrapper" >
+
+
+<a class="site-title" style="color:white;z-index:2;position:relative;font-size:3em" href="index.html"> Home</a>
+<!--
+    <a class="site-title" href="/jekyll-multilingual/">Turkey TSA</a>
+-->
+
+
+    <nav class="site-nav">
+  <a href="#" onclick="openNav()" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+<div id="myNav" class="overlay" >
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+
+<table style=" margin-left:auto; 
+    margin-right:auto;">
+  <tr>
+    <th><a onclick="closeNav()" href="menu.html#tsa"style="font-size: 3em;
+    color: #818181;">TSA Chapter</a></th>
+    <th><a onclick="closeNav()" href="menu.html#cteprogram" style="font-size: 3em;
+    color: #818181;">CTE Program</a></th>
+    <th><a onclick="closeNav()"  href="index.html#myDiv" id="myButton" style="font-size: 3em;
+    color: #818181;">Design Brief</a></th>
+ <th><a onclick="closeNav()"  id="con" style="font-size: 3em;
+    color: #818181;">Contact</a></th>
+ <th><a onclick="closeNav()"  id="about" style="font-size: 3em;
+    color: #818181;">About</a></th>
+  </tr>
+  <tr>
+    <td><a href="aboutch.html">About our Chapter</td>
+    <td>Classes and Courses</td>
+<td  id="contact" style="font-size: 3em;
+    color: #818181; text-align: center;"><a href="contact.html" style="color: #818181; "><strong>Contact<strong></a></td>
+   
+  </tr>
+  <tr>
+    <td><a href="motto.html">Mission,Motto and Creed</a></td>
+    <td><a href="gallery.html">Gallery</a></td>
+    <td  style="font-size: 3em;
+    color: #818181; text-align: center;"><a href="about.html"  style="color: #818181; "><strong>About</strong></a></td>
+    
+  </tr>
+  <tr>
+    <td>Events</td>
+    <td>Projects</td>
+   
+  </tr>
+  <tr>
+    <td>Awards</td>
+    <td>Extracurricular Activities</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Community Service</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td><a href="officers.html">Officers</a></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td><a href="teamphotos.html">Team Photos</a></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+</div>
+  </div>
+
+
+<script>
+
+function openNav() {
+    document.getElementById("myNav").style.height = "100vh";
+ 
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+
+</script>
+
+     <div class="trigger" style="padding-top:0">
+        <a  class="site-title" onclick="openNav()" style="font-size:3em;margin-bottom: 0;z-index:1;position:relative;color:white;padding-top:0"> Menu</a>
+<!--
+        
+          
+          <a class="page-link" href="/jekyll-multilingual/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        -->
+      </div> 
+    </nav>
+
+  </div>
+<div class="wrapper" style="text-align: right; line-height: 2em;">
+  
+  
+
+  
+   <a href="/jekyll-multilingual/" class="en">en</a>  <a href="/jekyll-multilingual/accueil.html" class="fr">fr</a> 
+</div>
+<div class="intro" style="padding:1.5em;" >
+<div class="wrapper">
+<!-- style="width:60vw;"-->
+<h1 class="baslık" style="top:50%;text-shadow:1.5px 1.5px black"><a href="/jekyll-multilingual/">Turkey TSA</a></h1>
+<p style="text-align:center;font-weight:bold;text-shadow: 1px 1px black">
+Learning to Lead in a Technical World
+
+<a href="#myDiv" id="myButton" style="margin-left: auto;
+    margin-right: auto; display: block;"><img src="http://codearmy.com/wp-content/uploads/2016/09/Scroll-Down-Icon-grey.png" height="42" width="42"></a>
+</p>
+
+</div>
+
+</div>
+
+<a href="#top" id="bottom" style="position:fixed;"><img  src="https://cdn3.iconfinder.com/data/icons/common-4/24/ui-22-512.png" height="42" width="42"></a>
+
+<script>
+$('a[href^="#"]').on('click', function(event) {
+
+    var target = $(this.getAttribute('href'));
+
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+
+});</script>
+
+<script>
+$('#myButton').click(function() {
+   $.scrollTo($('#myDiv'), 1000);
+});
+</script>
+</header>
+
+
+
+
+
+    
+      <div class="wrapper">
+        <div  class="home"> 
+<!--https://s3-us-west-2.amazonaws.com/s.cdpn.io/537051/whiteTest4.png  http://i.hizliresim.com/R0gLAR.png-->
+<div class="app__img" style="padding-bottom:120px;">
+
+			<img style="position:absolute;
+
+			width: 100%;
+			height: 700px;
+			
+			left: 0;" onmousedown="return false" src="http://i.hizliresim.com/j8AnkG.png" ></img>
+		</div>
+<!--
+<div class="intro" style="width:50vw;">
+<h1 style="font-size:5em;font-family: 'Oswald', sans-serif;text-align:left;color:#F0FFFF"><a href="/jekyll-multilingual/">Turkey TSA</a></h1>
+<p style="font-size:1.2em;color:white">
+On this page you will find information 
+
+regarding our school and projects we’ve prepared
+
+for this year’s National TSA Conference.
+
+Enjoy exploring the TSA world while browsing through
+
+Turkey’s one and only TSA chapter’s website.
+
+
+</p>
+
+</div>-->
+<!--
+<div style="background-color:#fff; overflow:hidden;
+  display:inline-block; 
+ 
+  font-weight:bold;
+  font-family:arial;
+  font-size:10em;opacity:0.5; 
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 5px 2px 4px rgba(0, 0, 0, .5);
+  position: relative;
+  width:90vw;">
+<span style=" 
+   background: url(https://static.pexels.com/photos/123335/pexels-photo-123335.jpeg) ;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  display:block;position:relative;"><a href="design.html"> DESIGN BRIEF</a></span></div>-->
+
+<!--
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    
+    
+      <li>
+        <span class="post-meta">Feb 29, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/jekyll-multilingual/jekyll/update/2016/02/29/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+        </h2>
+      </li>
+    
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="/jekyll-multilingual/feed.xml">via RSS</a></p>-->
+
+<div>
+
+    <div  id="myDiv" >
+
+<h2 style="float:right;font-size:3em;font-family:'Oswald', sans-serif;color:#ff751a;text-decoration: underline;" >WHAT IS AUGMENTED REALITY?</h2>
+
+<p  style="float:right;text-align:right;font-size:120%;">Augmented reality is the ability to insert an overlay with digital and virtual information into the real world.
+Unlike virtual reality, which creates a totally artificial environment, augmented reality uses the existing environment and overlays new information on top of it. Augmented Reality has a lot of applications.<br><a href="#myDiv2" id="myButton2" style="z-index:900;bottom:20px"><img src="http://codearmy.com/wp-content/uploads/2016/09/Scroll-Down-Icon-grey.png" height="42" width="42"></a><span><span></p></div>
+
+
+
+<div style="border-radius: 50%;color:black;
+	width: 18em;
+	height: 18em; overflow:hidden;float:right;position:absolute;z-index:400;">
+
+
+<img class="images" src="https://static.pexels.com/photos/226047/pexels-photo-226047.jpeg"></img></div>
+<div style="border-radius: 50%;color:black;
+	width: 18em;
+	height: 18em; overflow:hidden;float:left;position:absolute;z-index:400;">
+
+
+<img class="images" src="https://static.pexels.com/photos/226047/pexels-photo-226047.jpeg"></img></div>
+</div>
+
+<div class="white" style="">
+<div class="tech" id="myDiv2"style="float:left;z-index:400;color:#000000;margin:5% 10% ">
+<h1 style="font-size:3em;font-family:'Oswald', sans-serif;text-decoration: underline;color:#ff1a1a;text-align:left">Technology</h1>
+<p style="font-size:120%;margin-bottom:0">
+
+Augmented Reality can be seen through a wide variety of displays, from screens and monitors, to handheld devices or glasses. <br>
+
+<strong>Head mounted displays</strong>, like glasses and lenses, offers the widest visual field and provide more life-like Augmented Reality experiences. 
+
+ <strong>Google Glass </strong>is one of the most common examples for head mounted displays. Unfortunately it has been stopped being produced because of privacy and safety concerns.<a href="#myDiv3" id="myButton3" style="color:#ff6600" >(skip to safety problems) </a> 
+
+The next step up from glasses is <strong>contact lenses</strong>. It is aimed to eliminate the need for pesky headwear. They are still being developed, specifically for use in the military. <a href="#myDiv4" id="myButton4" style="color:#ff6600" >(Skip to future uses) </a> 
+
+ <br>
+
+Through mobile devices like smartphones and tablets, Augmented Reality act as a window. 
+
+Through the viewer users can work with 3D models, view holograms or display information by using their camera. 
+<br>
+
+<strong>Head-up display </strong>is also an augmented reality technology. A transparent display is positioned directly in the drivers’ or pilots’ view without requiring the user to look away from their usual viewpoints to get the data they need.   
+</p>
+</div>
+
+<div   class="accordion">
+
+
+  <ul>
+    <li>
+      <div >
+        <a href="#">
+          <h2>Education</h2>
+          <p >By viewing augmented models on their own devices, the students can gain a 
+better understanding
+of 
+the concepts they are studying. 
+They can learn the details of historical events through computer 
+generated simulations and explore the human anatomy in three dim
+esions.
+Although there are some educational apps in 2017, it is not broadly used</p>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+          <h2>Navigation</h2>
+          <p>Navigation applications are the most used augmented reality application in our daily lives. Using the 
+phone’s camera, users can see the selected route in the rea
+l life, in the real time</p>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+          <h2>Travelling</h2>
+          <p>Augmented reality provides an easy access to information.  Using augmented reality apps, tourists can 
+check the weather, find the most suitable hotel,  get info about local establishments at a particular 
+location.
+Usin
+g a smartphone equipped with a camera, tourists can walk through historic places and see facts and 
+figures presented as an overlay on their live screen.
+Also it is possible with augmented reality apps to translate printed materials such as signs and menus 
+in 
+to users native language through scanning.</p>
+        </a>
+      </div>
+
+    </li>
+    <li>
+      <div>
+        <a href="#">
+          <h2>Entertainment and Gaming</h2>
+          <p>Augmented reality allows players to experience game play in a real world environment.  Pokemon
+-
+Go is 
+one of the best examples for augmented reality in gaming industry. It is a 
+location
+-
+based augmented 
+reality game, which is downloaded over 650 million over the world.
+Another example for augmented reality’s use in entertainment is Lego’s AR
+-
+powered Kiosks which 
+shows customer the how the finished product look like.</p>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+          <h2>Medical</h2>
+          <p>Medicine students can learn anatomy with 3D models and experience surgery in a controlled environment, while surgeons can get more detailed data and even a 3D model of the organ of the patient they are going to operate.  For example,EchoPixel developed an advanced medical visualization software solution named <strong>True 3D</strong>, which allows doctors to view patient tissues and organs in a 3D form. Also The <strong> Medsights Tech </strong>company developed a software to get more accurate data of the condition of patients. </p>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div>
+        <a href="#">
+          <h2>Advertising</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<script>
+$('#myButton2').click(function() {
+   $.scrollTo($('#myDiv2'), 1000);
+});
+</script>
+
+
+<p class="about">
+<script>
+$('#myButton3').click(function() {
+   $.scrollTo($('#myDiv3'), 1000);
+});
+</script>
+<script>
+$('#myButton4').click(function() {
+   $.scrollTo($('#myDiv4'), 1000);
+});
+</script>
+<div  id="myDiv3"style="float:left;position:relative;z-index:400;color:#000000;margin:0 10%"><h3 style="font-size:3em;font-family:'Oswald', sans-serif;text-decoration: underline;color:#ff1a1a">Concerns:</h3>
+<p style="font-size:120%;margin-bottom:0">Augmented reality can be used for bad purposes. For example, hackers may trick users by using their  location data and pull them into a place by creating fake signs. 
+
+There are also privacy concerns. Face-recognition technology improves really fast and 
+will allow us to view information about  people we see like their social media profiles. Although people willingly put information online, they may not want everyone to know about their lives and background.
+
+Furthermore, there are also some psychical security concerns. People will use wearable devices like lenses, which may cause danger because of the possibility of being hacked by bad-aimed people.
+Augmented reality can be used for bad purposes. For example, hackers may trick users by using their  location data and pull them into a place by creating fake signs. 
+
+
+</p>
+<div id="myDiv4">
+<h3 style="font-size:3em;font-family:'Oswald', sans-serif;text-decoration: underline;color:#ff1a1a">Potential Future Uses</h3>
+<p style="font-size:120%;margin-bottom:300px">
+
+Augmented reality has a huge potential to affect all industries, from advertising and marketing, to gaming and medicine.<br>
+
+In the future, we will be able to receive more efficient medical care. Augmented Reality applications will help surgeons during surgeries and we will have medical applications, which analyzes our state of health and gather our medical data. For example, <a href="https://clinicloud.com/" style="color:#ff6600">CliniCloud</a>, an Australian startup, made the world’s first stethoscope for home use. As technology continues to advance, we will see more medical applications. Also current technologies like True 3D wil develop and give us more accurate information every time.
+<br>
+Augmented reality has an important place in online-shopping either.  For example, you could launch an augmented reality app that gives users a map of the store to help them find what they’re looking for or you could let users to visualize the product in real world, so that they could be sure before purchasing the product.
+<br>
+The next generation of augmented reality is <strong>Articulated Naturality Web (ANW) </strong>which is introduced by <strong>QderoPateo Communications </strong>. It is described as a<cite> "complete renaissance in the way we approach technology,”</cite> Information is going to be more integrated into the natural world rather than just being an overlay. We will be able to get a weather forecast just by holding our device up to sky. ANW would let us take a look inside the hotel room by looking at the outside of the hotel. It will be possible to try furniture in our office before buying them.
+
+ 
+
+
+ </p>
+</div>
+</div>
+<div style="border-radius: 50%;color:black;
+	width: 18em;
+	height: 18em; overflow:hidden;float:right;position:absolute;z-index:400;opacity:0.4;margin-left:10%">
+
+
+<img src="https://cdn.pixabay.com/photo/2017/03/08/19/39/hacked-2127635_960_720.png"></img></div>
+
+</div>
+
+<!--<a href="#myDiv3" id="myButton3" style="position:absolute;z-index:400;">button</a>-->
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+      </div>
+
+    </div>
+
+    
+<footer class="site-footer">
+
+ <div class="wrapper">
+
+   
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+ <h2 class="footer-heading">Turkey TSA</h2>
+        <ul class="contact-list"><!--<li>Turkey TSA</li>-->
+          <li><a style="margin-bottom:0"href="mailto:contact@tsaturkey.com">contact@tsaturkey.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+
+          
+        
+        <ul class="social-media-list">
+
+          
+          <li>
+            <a href="https://github.com/jekyll"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jekyll</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/TSATurkey"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">TSATurkey</span></a>
+
+          </li>
+          
+
+
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+
+
+       <!-- <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>-->
+<img src="http://z-kutuphane.meb.gov.tr/kitapistek/images/logo-meb.png" height="42" width="42">
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

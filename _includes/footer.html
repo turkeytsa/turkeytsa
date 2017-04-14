@@ -1,0 +1,47 @@
+
+<footer class="site-footer">
+
+ <div class="wrapper">
+
+   
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+ <h2 class="footer-heading">{{ site.title[page.lang] }}</h2>
+        <ul class="contact-list"><!--<li>{{ site.title[page.lang] }}</li>-->
+          <li><a style="margin-bottom:0"href="mailto:{{ site.email }}">{{ site.email }}</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+
+          
+        
+        <ul class="social-media-list">
+
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
+
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+
+
+       <!-- <p>{{ site.description[page.lang] }}</p>-->
+<img src="http://z-kutuphane.meb.gov.tr/kitapistek/images/logo-meb.png" height="42" width="42">
+      </div>
+    </div>
+
+  </div>
+
+</footer>
