@@ -118,9 +118,10 @@ function closeNav() {
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </div>
+<!--
 <div class="intro" style="padding:1.5em;" >
 <div class="wrapper">
-<!-- style="width:60vw;"-->
+
 <h1 class="baslık" style="top:50%;text-shadow:1.5px 1.5px black"><a href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a></h1>
 <p style="text-align:center;font-weight:bold;text-shadow: 1px 1px black">
 Learning to Lead in a Technical World
@@ -132,6 +133,7 @@ Learning to Lead in a Technical World
 </div>
 
 </div>
+-->
 
 <a href="#top" id="bottom" style="position:fixed;"><img  src="https://cdn3.iconfinder.com/data/icons/common-4/24/ui-22-512.png" height="42" width="42"></a>
 
