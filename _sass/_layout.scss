@@ -66,10 +66,10 @@ h1 {
 @import url(http://fonts.googleapis.com/css?family=Montserrat:700);
 
 // Accordion Height
-$a-height: 400px;
+$a-height: 250px;
 
 // Position text along bottom
-$text-offset: $a-height - 300;
+$text-offset: $a-height - 90;
 
 // Page Title
 h1 {
@@ -246,6 +246,8 @@ h1 {
     padding-top:0;
     height:auto;
  ul li div a h2 {opacity:1}
+ul li div a {
+        background:rgba(0,0,0,.4);}
   
     ul,ul:hover {
       
