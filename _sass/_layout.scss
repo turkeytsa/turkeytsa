@@ -179,12 +179,12 @@ h1 {
     }
     
     // Background images
-    li:nth-child(1) { background-image:url('/img/education.jpg'); }
-    li:nth-child(2) { background-image:url('/img/nav.jpg'); }
-    li:nth-child(3) { background-image:url('/img/tour.jpg'); }
-    li:nth-child(4) { background-image:url('/img/pokemon.jpg'); }
-    li:nth-child(5) { background-image:url('/img/dna.jpg'); }
-    li:nth-child(6) { background-image:url(/img/shop.jpg'); }
+    li:nth-child(1) { background-image:url("/img/education.jpg"); }
+    li:nth-child(2) { background-image:url("/img/nav.jpg"); }
+    li:nth-child(3) { background-image:url("/img/tour.jpg"); }
+    li:nth-child(4) { background-image:url("/img/pokemon.jpg"); }
+    li:nth-child(5) { background-image:url("/img/dna.jpg"); }
+    li:nth-child(6) { background-image:url("/img/shop.jpg"); }
 
     &:hover li { width:8%; }
 
