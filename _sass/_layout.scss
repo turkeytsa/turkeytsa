@@ -222,6 +222,23 @@ h1 {
   div {
        padding:0}
 
+
+ a {
+        
+        background:rgba(0,0,0,.4);
+        
+        * {
+          
+          opacity:1;
+          -webkit-transform:translateX(0);
+          transform:translateX(0);
+        
+        }
+      
+      }
+
+
+
   .intro {
        width:100vw;}
 .white{position:relative;margin-top:0px;}
