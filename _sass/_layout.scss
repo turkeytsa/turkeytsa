@@ -15,7 +15,12 @@
   
 
 }
-
+.section{background-image:url("/img/glasses.jpeg");width:100vw;height:100vh;overflow:hidden;-webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;}
 .intro{position: absolute;
 top: 50%;
 left: 50%;
