@@ -134,14 +134,14 @@ h1 {
 
           * {
 
-            opacity:1;
+            opacity:0;
             margin:0;
             width:100%;
             text-overflow:ellipsis;
             position:relative;
             z-index:5;
             
-           /** white-space:nowrap;*/
+           white-space:nowrap;
             overflow:hidden;
             
             -webkit-transform:translateX(-20px);
@@ -224,20 +224,19 @@ h1 {
 
 .accordion ul li a * {
     opacity: 1;}
-
+h2{opacity:1;}
   .intro {
        width:100vw;}
 .white{position:relative;margin-top:0px;}
 .myDiv{position:relative}
-  //.accordion{padding-top:15em;}
+ 
   .app__img{display:none}
   .baslık{font-size:5em}
   .site-footer{height:120px;position:absolute;}
   .baslıkr{display:inline;}
   .images{display:none}
-  //.intro{display:none}
-  
-  //.site-header{height:0px}
+ 
+
   #myDiv{position:relative;float:left;z-index:400;color:#000000;
     -webkit-column-width: 100vw; /* Chrome, Safari, Opera */
     -moz-column-width: 100vw; /* Firefox */
