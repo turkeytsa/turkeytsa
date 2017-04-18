@@ -18,6 +18,7 @@ width: 100%;
 
 }
 .section{background-image:url("/img/glasses-min.jpeg");
+z-index:7000;
 width:100vw;
 height:100vh;
 overflow:hidden;
@@ -192,7 +193,7 @@ h1 {
     
     // Background images
     li:nth-child(1) { background-image:url("/img/edu-min.jpg"); }
-    li:nth-child(2) { background-image:url("/img/nav-min.jpg"); }
+    li:nth-child(2) { background-image:url("/img/navi-min.jpg"); }
     li:nth-child(3) { background-image:url("/img/tourr-min.jpg"); }
     li:nth-child(4) { background-image:url("/img/poke-min.jpg"); }
     li:nth-child(5) { background-image:url("/img/dna-min.jpg"); }
@@ -401,7 +402,7 @@ background-color:black;border-radius:0 0 10% 10%;
  * Site footer
  */
 .site-footer {
-   z-index:-1;
+   
 
 
     padding: $spacing-unit 0;
