@@ -238,7 +238,7 @@ h1 {
  
   .app__img{display:none}
   .baslık{font-size:5em}
-  .site-footer{height:120px;position:absolute;}
+  .site-footer{height:120px;position:relative;}
   .baslıkr{display:inline;}
   .images{display:none}
  
@@ -396,9 +396,6 @@ background-color:black;border-radius:0 0 10% 10%;
  * Site footer
  */
 .site-footer {
-   
-
-
     padding: $spacing-unit 0;
     box-shadow: 5px 2px 4px rgba(0, 0, 0, .5);
   
