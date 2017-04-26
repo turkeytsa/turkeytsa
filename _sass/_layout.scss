@@ -218,7 +218,7 @@ h1 {
   }
 
 }
-.uses h2 {font-weight:bold}
+.uses h2 {font-weight:bold;padding-top:70px;}
 
 // Stack items@media screen and (max-height: 600px)
 @include media-query($on-palm) {
